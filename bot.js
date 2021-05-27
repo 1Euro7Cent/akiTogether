@@ -54,11 +54,12 @@ bot.on('message', async (message) => {
                 message.channel.send(new MessageEmbed()
                     .setTitle('Help')
                     .setDescription(`[Invite me](https://discord.com/oauth2/authorize?client_id=${bot.user.id}&permissions=92224&scope=bot)
+[Sourcecode](https://github.com/1Euro7Cent/akiTogether)
 **Available commands**
 <> = required; [] = optional
 
 \`${prefix}list\` Get a list on available language codes
-\`${prefix}start [language code (default en)]\` This starts a new round in this channel
+\`${prefix}start [language code (default ${defaultLanguage})]\` This starts a new round in this channel
 \`${prefix}stop\` This stops a running round
 \`${prefix}help\` This thing
                 `)
