@@ -1,0 +1,15 @@
+{
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "prefix": ",",
+    "defaultLanguage": "en",
+    "maxPercent": 80,
+    "waitTime": 30000,
+    "emojis": {
+        "yes": "✅",
+        "no": "❌",
+        "idk": "🤷",
+        "maybe":"☝️",
+        "maybeNot": "👇",
+        "reverse": "↩️"
+    }
+}
